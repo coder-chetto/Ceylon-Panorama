@@ -1,0 +1,86 @@
+@charset "utf-8";
+    .site-title {
+      background-color: #FCF0D3;
+      color: #8D5C5C;
+      font-weight: bold;
+      font-size: 2.5rem;
+      text-align: center;
+      padding: 20px 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      letter-spacing: 2px;
+      user-select: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    /* Body background */
+    body {
+      background-color: #FCF0D3;
+    }
+
+    /* Navbar */
+    .navbar.custom-navbar {
+      background-color: #8D5C5C;
+      border-radius: 12px;
+      padding: 0 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .custom-navbar .navbar-nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      width: 100%;
+    }
+
+    .custom-navbar .nav-link {
+      color: #FCF0D3;
+      font-weight: 500;
+      padding: 8px 16px;
+      transition: background-color 0.3s ease;
+      border-radius: 8px;
+    }
+
+    .custom-navbar .nav-link:hover {
+      background-color: #a17272;
+      color: #fff;
+    }
+
+    .custom-navbar .nav-link.active {
+      background-color: #704B4B;
+      color: #fff;
+    }
+
+    /* Navbar brand */
+    .navbar-brand img {
+      height: 62px;
+      width: 99px;
+      object-fit: contain;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin: 40px 0 20px;
+      color: #333;
+      text-align: center;
+    }
+   
+      .theme-box {
+  border-radius: 20px;
+  border: 1px solid #ddd; 
+  padding: 20px;       
+  margin-bottom: 40px;  
+  background-color: #fff; /* Optional: clean white background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+    
+    .carousel-inner img {
+      height: 300px;
+      object-fit: cover;
+    }
+	  .row.g-3 .col-6.text-center .btn.btn-outline-dark.w-100{
+		  background-color: #8D5C5C;
+	  }
+.col-6.text-center{
+	margin-bottom: 15px;
+}

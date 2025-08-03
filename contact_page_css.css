@@ -1,0 +1,30 @@
+@charset "utf-8";
+.container .row.mt-5 footer {
+    text-align: center;
+}
+.col-md-7.contact-form form .btn.btn-primary.btn-block {
+    background-color: #8D5C5C;
+}
+.container .row .col-md-5.info-box {
+    text-align: center;
+    top: 80px;
+	left:50px;
+	right:50px
+}
+.container .row .col-md-5.info-box {
+    bottom: 80px;		
+}
+.col-md-5.info-box{
+	margin-top: 100px;
+	
+}
+/* Footer */
+    footer {
+      background-color: #8D5C5C;
+      color: #FCF0D3;
+      padding: 15px 0;
+      font-weight: 500;
+      text-align: center;
+      user-select: none;
+    }
+

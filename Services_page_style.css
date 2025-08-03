@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* General Page Theme */
+body {
+  background-color: #FCF0D3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #8D5C5C;
+}
+
+.site-title {
+  background-color: #FCF0D3;
+  color: #8D5C5C;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 20px 0;
+  letter-spacing: 2px;
+  user-select: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Navbar */
+.navbar.custom-navbar {
+  background-color: #8D5C5C;
+  border-radius: 12px;
+  padding: 0 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.custom-navbar .navbar-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.custom-navbar .nav-link {
+  color: #FCF0D3;
+  font-weight: 500;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+}
+
+.custom-navbar .nav-link:hover {
+  background-color: #a17272;
+  color: #fff;
+}
+
+.custom-navbar .nav-link.active {
+  background-color: #704B4B;
+  color: #fff;
+}
+
+.navbar-brand img {
+  height: 62px;
+  width: 99px;
+  object-fit: contain;
+}
+
+/* Travel Essentials */
+.travel-essentials {
+  margin-bottom: 50px;
+}
+
+.topic-section {
+  margin-top: 40px;
+}
+
+.topic-section h4 {
+  color: #8D5C5C;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-left: 4px solid #8D5C5C;
+  padding-left: 12px;
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-bottom: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.service-card img {
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.service-card h5 {
+  font-weight: bold;
+  color: #8D5C5C;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #704B4B;
+}
